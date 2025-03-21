@@ -1,0 +1,13 @@
+StarMain/API.class
+StarMain/ArgumentSwitcher.class
+testParser/JsonParser.class
+StarMain/Parser.class
+testParser/GsonParser.class
+PasAPas/API.class
+PasAPas/HtmlPrinter.class
+StarMain/GetRequestRepository.class
+StarMain/Main.class
+StarMain/Printer.class
+PasAPas/Printer.class
+testParser/JacksonParser.class
+PasAPas/MainApi.class
