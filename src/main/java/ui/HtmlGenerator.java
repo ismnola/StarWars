@@ -31,14 +31,6 @@ public class HtmlGenerator {
                     People p = (People) person;
                     html.append("<div class=\"card\">\n");
                     html.append("<div class=\"header\">Nom: ").append(p.getName()).append("</div>\n");
-                    html.append("<div class=\"details\">Taille: ").append(p.getHeight()).append("</div>\n");
-                    html.append("<div class=\"details\">Masse: ").append(p.getMass()).append("</div>\n");
-                    html.append("<div class=\"details\">Couleur de cheveux: ").append(p.getHairColor()).append("</div>\n");
-                    html.append("<div class=\"details\">Couleur de peau: ").append(p.getSkinColor()).append("</div>\n");
-                    html.append("<div class=\"details\">Couleur des yeux: ").append(p.getEyeColor()).append("</div>\n");
-                    html.append("<div class=\"details\">Année de naissance: ").append(p.getBirthYear()).append("</div>\n");
-                    html.append("<div class=\"details\">Genre: ").append(p.getGender()).append("</div>\n");
-                    html.append("<div class=\"details\">Planète d'origine: ").append(p.getHomeworld()).append("</div>\n");
                     html.append("</div>\n");
                 }
                 break;
@@ -48,9 +40,6 @@ public class HtmlGenerator {
                     Planet p = (Planet) planet;
                     html.append("<div class=\"card\">\n");
                     html.append("<div class=\"header\">").append(p.getName()).append("</div>\n");
-                    html.append("<div class=\"details\">Diamètre: ").append(p.getDiameter()).append("</div>\n");
-                    html.append("<div class=\"details\">Climat: ").append(p.getClimate()).append("</div>\n");
-                    html.append("<div class=\"details\">Terrain: ").append(p.getTerrain()).append("</div>\n");
                     html.append("</div>\n");
                 }
                 break;
@@ -60,9 +49,6 @@ public class HtmlGenerator {
                     Starship s = (Starship) starship;
                     html.append("<div class=\"card\">\n");
                     html.append("<div class=\"header\">").append(s.getName()).append("</div>\n");
-                    html.append("<div class=\"details\">Modèle: ").append(s.getModel()).append("</div>\n");
-                    html.append("<div class=\"details\">Classe: ").append(s.getStarshipClass()).append("</div>\n");
-                    html.append("<div class=\"details\">Fabricant: ").append(s.getManufacturer()).append("</div>\n");
                     html.append("</div>\n");
                 }
                 break;
